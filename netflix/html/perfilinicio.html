@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina de inicio - Netflix</title>
+    <link rel="shortcut icon" href="/img/img/n.png">
+
+    <link rel="stylesheet" href="/css/inicio.css" />
+  </head>
+  <style>
+    
+  </style>
+  <body>
+    <header id="cabeza">
+      <div id="video-container">
+        <video id="main-video" class="video1" autoplay muted loop>
+          <source
+            src="/img/videos/The Seven Deadly Sins_ El rencor de Edimburgo (Parte 2) _ Tráiler oficial _ Netflix.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+      <nav class="container">
+        <div class="nav-1">
+          <div class="logo">
+            <img src="/img/img/netflixlogo.png" alt="" />
+          </div>
+          <div class="nav-left">
+            <ul class="links-left">
+              <li><a href="">Inicio</a></li>
+              <li><a href="">Series</a></li>
+              <li><a href="">Peliculas</a></li>
+              <li><a href="">Novedades populares</a></li>
+              <li><a href="">Mi lista</a></li>
+              <li><a href="">Explora por idiomas</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="nav-2">
+          <div class="nav-right">
+            <ul class="links-right">
+              <li class="busqueda">
+                <form action="">
+                  <div>
+                    <input type="text" placeholder="Titulos,personas,generos" />
+                  </div>
+                </form>
+              </li>
+              <li>
+                <div class="flotante">
+                  <button>
+                    <img src="/img/icons/icons8-campana-48.png" alt="" />
+                  </button>
+                  <div class="flotante-contenido">
+                    <a href="#"
+                      ><div class="notificacion">
+                        <img src="/img/img/pelicula1.jpg" alt="" />
+                        <div class="texto">
+                          <h2>Ya disponible</h2>
+                          <p>No te pierdas ningun episodio</p>
+                          <span>Hace 2 meses</span>
+                        </div>
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div class="notificacion">
+                        <img src="/img/img/pelicula1.jpg" alt="" />
+                        <div class="texto">
+                          <h2>Ya disponible</h2>
+                          <p>No te pierdas ningun episodio</p>
+                          <span>Hace 2 meses</span>
+                        </div>
+                      </div></a
+                    >
+                    <hr />
+                    <a href="#"
+                      ><div class="notificacion">
+                        <img src="/img/img/pelicula1.jpg" alt="" />
+                        <div class="texto">
+                          <h2>Ya disponible</h2>
+                          <p>No te pierdas ningun episodio</p>
+                          <span>Hace 2 meses</span>
+                        </div>
+                      </div></a
+                    >
+                    <hr />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <button>
+                  <img src="/img/img/perfil.png" alt="" class="search-icons" />
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main>
+        <section class="main">
+          <div class="main-intro">
+            <div class="main-contents">
+              <img src="/img/img/intro_netflix.webp" alt="Intro" />
+              <div class="main-details">
+                <p>
+                  Bajo la mirada de sus padres, Tristan y Lancelot se acercan a
+                  Deathplerce.Segunda y ultima parte de la historia de Nakba
+                  Suzuki, con las voces originales en su versión japonesa.
+                </p>
+                <button class="start-btn" id="reproducir">
+                  <img
+                    src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png"
+                    id="pb"
+                    alt="Play Button"
+                  />
+                  <p>Reproducir</p>
+                </button>
+                <button id="view">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABUUlEQVR4nN2UTU4CQRCFJxDcCB5EuIQ/ewmiXkEDGQK3ULyFRu/jTxyDHsLgQt18puB10ovumWFmRyWVTPq9rjf9uquSZKsD2AEugAcgA76VmdbOjVO1+CnwSXF8AINNCjeBW6/AEzABusCusqu1Z483BxplBFzxH+Aqb5N+ZgT8as9NGVtc8YMNTn3oifTzLtR5fhnhrCKCjdcoi+DF67U4z4O2oMix60WUsxDhUWAaPGKSLyB8Ksp9CHwXuF9DoCdKFgKXAts1BDqiLPMEOjUE9kT5qmRRURRZZLPFYlJDYKYadyHQBhdq/2bFZ/oqyjDWaDa4LEYVBFKv0VqxIw5EsrY/CpLC+46BP+09KSLPPZFxzC7PltQrfl3mbxo2FZ0drNt/qhfSVvZ0oc7zVfFS49oT6svPolgU2pIj0rLBZbMFeFMzWtq3rQ2jF7o18Q9CI8nH+kc7awAAAABJRU5ErkJggg=="
+                    alt="View Button"
+                  />
+                  <p>Mas información</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </header>
+
+    <section class="main-2">
+      <div class="peliculas-recomendadas contenedor">
+        <div class="contenedor-titulo-controles">
+          <h3>Películas Recomendadas</h3>
+          <div class="indicadores"></div>
+        </div>
+
+        <div class="contenedor-principal">
+          <button role="button" id="flecha-izquierda" class="flecha-izquierda">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsklEQVR4nO3YOwrCQACE4SlsfBQa9ISCpxA8VlCw0NJHoRf6RQTBR7B0Z5mvTPczSVhWioiIMAPMgLkqiLjysFQFEVjGAFPgwqct0JMDYAKcvkTsgZEckIhCZInClji6f9jjRJSALFEIKlmiAc4dZ6eBjJY4WC9RVchdYgyX2dUWM5QTEuO3zAboywmJKVSWMVxm7fgDaDqO/a3NlemPZVZyxGuMZ8Tba7Z4PoiIiNB/3QBeA5FQENoIKgAAAABJRU5ErkJggg=="
+            />
+          </button>
+
+          <div class="contenedor-carousel">
+            <div class="carousel">
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula1.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula2.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula2.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula3.webp" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/sex.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula1.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula1.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+
+          <button role="button" id="flecha-derecha" class="flecha-derecha" >
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAArUlEQVR4nO3WSwpCMRBE0XYvgp9sRlDcmD7F9Ql+tqCDKxm8kdGhdMU6O7hUQxJhZmaWBLAC5qEMWAMP4A6UEI8Y3SRjgBPvLsAslAAT4NCIqcssQwmOyb3M0NOZDY4RW2YRncRcVWP2jsmmx2WOjZgzMA3BmN2HZUp0cmIlxD+XOqf1ZQlH/JSXyMJLZOElsvASWdDDi111EVEBW+ApHdGI0Y0YARv5CDMz+0sv4aSK5xEukpcAAAAASUVORK5CYII="
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="main-3">
+      <div class="peliculas-recomendadas contenedor">
+        <div class="contenedor-titulo-controles">
+          <h3>Contenido de perfil 2</h3>
+          <div class="indicadores"></div>
+        </div>
+
+        <div class="contenedor-principal">
+          <button role="button" id="flecha-izquierda" class="flecha-izquierda">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsklEQVR4nO3YOwrCQACE4SlsfBQa9ISCpxA8VlCw0NJHoRf6RQTBR7B0Z5mvTPczSVhWioiIMAPMgLkqiLjysFQFEVjGAFPgwqct0JMDYAKcvkTsgZEckIhCZInClji6f9jjRJSALFEIKlmiAc4dZ6eBjJY4WC9RVchdYgyX2dUWM5QTEuO3zAboywmJKVSWMVxm7fgDaDqO/a3NlemPZVZyxGuMZ8Tba7Z4PoiIiNB/3QBeA5FQENoIKgAAAABJRU5ErkJggg=="
+            />
+          </button>
+
+          <div class="contenedor-carousel">
+            <div class="carousel">
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula1.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula2.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula2.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula3.webp" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/sex.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula1.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              <div class="pelicula">
+                <a href="/html/reproductor.html"><img src="/img/img/pelicula1.jpg" alt="" /></a>
+                <div class="botones">
+                  <button  id="reproducir" class="b1" >
+                      <img src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png" alt="">
+                  </button>
+                  <button class="botones-izq">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                  </button>
+                    <button class="botones-izq">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+                <button class="botones-der" id="openModalBtn">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA4ElEQVR4nO3YSwrCMBRG4bpDLUoHunpFsPjYgMKRgEXFtrY2jxv8z6yQC/kIHSRFoZRSSiml1JiAFXAC9sC8MBawAA7ABai6Fs2AI8+unYsTBFSPPTWd3Z67FtcvC81g+ES46r6BsmUgKYZ2hPsuvw0uWwZvwCba7t//2ba9rIshWcAwFWEBgy9ESgy+ESkwhELExARHxMBEQ4TEREeEwCRD+MQkR/jAmEFMwZhD/IIxixiDMY8YgskGMeDuYOqOM+Vk8jiJEZh8ED2Y/BBN7kkJ2AFbi89LSimllFLqz7oD6IVh8k9Y3KsAAAAASUVORK5CYII=">                </button>
+                
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+
+          <button role="button" id="flecha-derecha" class="flecha-derecha" >
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAArUlEQVR4nO3WSwpCMRBE0XYvgp9sRlDcmD7F9Ql+tqCDKxm8kdGhdMU6O7hUQxJhZmaWBLAC5qEMWAMP4A6UEI8Y3SRjgBPvLsAslAAT4NCIqcssQwmOyb3M0NOZDY4RW2YRncRcVWP2jsmmx2WOjZgzMA3BmN2HZUp0cmIlxD+XOqf1ZQlH/JSXyMJLZOElsvASWdDDi111EVEBW+ApHdGI0Y0YARv5CDMz+0sv4aSK5xEukpcAAAAASUVORK5CYII="
+            />
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="modal" id="myModal">
+          
+      <div class="video-modal">
+
+        <span class="close" id="closeModalBtn"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAjklEQVR4nO2VQQ6AIAwE5xNL5In6XDn4HL1gYggqrXBzTxzYnQZagF8OzUBw+EL2PmoBdiAZISF79pxxKwFr3rgBsSG89ExWQ+wZboHIG94C0dfwJ4h6hdc6JBVrTztXpUvV3Sp/A8Re4WHkEalyoZ5hbA4/9RnS0oryQix9LivEM0SyQIY/18M/nF+UOgAHtlaIDLPnzAAAAABJRU5ErkJggg=="></span>            
+        <video id="main-modal" class="video2" autoplay muted loop>
+          <source
+            src="/img/videos/The Seven Deadly Sins_ El rencor de Edimburgo (Parte 2) _ Tráiler oficial _ Netflix.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+      </div>
+    
+        <section >
+          <div class="main-intro">
+            <div class="main-modal">
+              <div class="main-details-modal">
+                <button class="boton-modal" id="reproducir">
+                  <img
+                    src="/img/icons/1486348532-music-play-pause-control-go-arrow_80458.png"
+                    id="pb"
+                    alt="Play Button"
+                  />
+                  <p>Reproducir</p>
+                </button>
+                <button id="view-modal">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAUUlEQVR4nO3TwQ3AMAzEMO+/dPrJCA2qFOQGZ8EzAMB5a5vbLUNiFKlRpEaRGkVqFKlR5ORVvzKGvMiP1ChSo0iNIjWK1ChSo0jNb4oAwFzgAUeu7iAbqd3NAAAAAElFTkSuQmCC">                </button>
+                </button>
+                <button id="view-modal">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACs0lEQVR4nO2ZTYhNYRjH3zFNGIzmNo1GUT4WiBoWPlNYS1mMLGZlwYLCkrCzEGqmKCxGsbBiQVkYpCwkNWWKGfkoZOQzY8i3n97mf+t0594zR+e54z06/zqb8z79///n3vfjOc/rXI4cOcYcwESgA3gLDAAngEaXJQC1wBVG4iFQcFkBcFDGXwCtwHzgrt4dcVkAsA74BfwAlkfer1Iij13oAJr0L3jsLRmbrPdfXMgAaoBLMnsNGFcy7qeYxwMXMoCdMvoamF5m/KjGj7lQASwGvgK/gfVlxuuBd0pkiQsRwCSgTyY7KsRs1fhNFyqA0zLZC0yoEFPceje5EAG0yeAnYF6FmDWRM6XOhQZgNjAok1ti4s4rZp8LDUAdcFsGz8XEzQJ++rMDaHahATikJJ7GFYJAp+JOudDA8JwvliArYuIaNPX8lrzAhQSgGXipX3lPwgOyHPzm8D7mGQBu+TLHlzbVKEEuy8jV0hKkTHw78J30uA9Ms0xke6QEaUl5gDaO8swANgD3pHnWKokC8EGkG01Ik+nOleagFeFuEXabECbXbSyuKSvCbhG2mRAm110k3X4rwlciHFGeVxPA6sgut82C0J/OHrUmDpPrjgeOR/TTFZ3FfdDM4d/r75CFO1lPpGCy6ANIZJksPM9sIgx3ZnpkoTPLifRK/knqlus/TuSi5L/FVdtZSKQGOCwL17O+2Jv+l11roSw8S0v0UURTzNwl154ZWfBdacn6RdRq5jCZbjvwObJrpav1gJMi22/mMplul3R7TLowuvMofh02mLhMprtUun2WpP6qADXcYr/XDTXrze9UgDm62PS4AEw1Ix+9JfvImnhlJJk3wAF/TWDdsgFa/IdUpCW7y5I/2vP17aCxwpmqTmVgre7Ofd9pyNj8EHAD2Fy1BHLkyOEyiz+lhVxrUBoKtwAAAABJRU5ErkJggg==">                
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>        
+      </div>
+      <footer>
+        <div class="contenido_footer">
+          <div class="preguntas">
+            <span>¿Preguntas?</span>
+            <span>Llama al <a href="">01 800 917 1564</a></span>
+          </div>
+          <div class="lista_preguntas">
+            <div class="lista">
+              <ul>
+                <li>Preguntas frecuentes</li>
+                <li>Preferencias de cookies</li>
+              </ul>
+            </div>
+            <div class="lista">
+              <ul>
+                <li>Centro de ayuda</li>
+                <li>Información corporativa</li>
+              </ul>
+            </div>
+            <div class="lista">
+              <ul>
+                <li>Términos de uso</li>
+              </ul>
+            </div>
+            <div class="lista">
+              <ul>
+                <li>Privacidad</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>   
+    <script src="/js/perfilInicio.js"></script>
+  </body>
+</html>

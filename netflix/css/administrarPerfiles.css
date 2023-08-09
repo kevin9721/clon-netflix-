@@ -1,0 +1,97 @@
+* {
+    background-color: rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  
+  h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 45px;
+  }
+  
+  .perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .perfil button {
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    background-image: url(/img/img/perfil.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    position: relative; 
+    opacity: 0.5;
+  }
+  
+  .perfil button::after {
+    content: "";
+    background-image: url(/img/icons/pencil_icon-icons.com_64998.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute; 
+    transform: translate(50px, 50px);
+    top: 0;
+    left: 0;
+    border-radius: 5px; 
+    filter: brightness(0) invert(100%);
+
+  }
+  
+    
+  .perfil button:hover {
+  outline: solid white 3px;  
+  }
+  
+  .perfiles {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .perfiles span {
+      color: #666666;
+      margin-top: 20px;
+  }
+  
+  .perfiles span:hover {
+      color: white;
+  }
+  
+  footer{
+      display: flex;
+      justify-content: center;
+      margin-top: 40px 
+  }
+  
+  footer button{
+       background-color: white;
+      color: #666666;
+      border: 0.5px #666666 solid;
+      height: 40px;
+      width: 100px;
+      border-radius: 5px;
+
+  }
+  
+  footer button:hover {
+      background-color: red; 
+      color: white;
+      border: none;
+      border-radius: 5px;
+  }

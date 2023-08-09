@@ -1,0 +1,71 @@
+* {
+  background-color: rgb(20, 20, 20);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.perfil button {
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    background-image: url(/img/img/perfil.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+  }
+  
+.perfil button:hover {
+outline: solid white 3px;  
+}
+
+.perfiles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfiles span {
+    color: #666666;
+    margin-top: 20px;
+}
+
+.perfiles span:hover {
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px 
+}
+
+footer button{
+    color: #666666;
+    border: 0.5px #666666 solid;
+    height: 40px;
+    width: 150px;
+}
+
+footer button:hover {
+    outline: solid white 0.5px;  
+}
